@@ -1,5 +1,5 @@
 //
-//  LoginViewController.swift
+//  LoginView.swift
 //  PackPal
 //
 //  Created by Rodrigo on 21/05/23.
@@ -7,8 +7,7 @@
 
 import UIKit
 
-class LoginViewController: UIViewController {
-    
+class LoginView: PacPalView {
     let loginTitleLabel: UILabel = {
         let titleLabel = UILabel(frame: CGRect(x: 50, y: 150, width: 200, height: 50))
         titleLabel.text = "PackPal"
@@ -50,7 +49,6 @@ class LoginViewController: UIViewController {
     let loginButton: UIButton = {
         let button = UIButton(type: .system)
         button.setTitle("Login", for: .normal)
-        button.addTarget(self, action: #selector(loginButtonTapped), for: .touchUpInside)
         button.translatesAutoresizingMaskIntoConstraints = false
         
         return button
@@ -59,34 +57,41 @@ class LoginViewController: UIViewController {
     let registerButton: UIButton = {
         let button = UIButton(type: .system)
         button.setTitle("Criar Conta", for: .normal)
-        button.addTarget(self, action: #selector(registerButtonTapped), for: .touchUpInside)
         button.translatesAutoresizingMaskIntoConstraints = false
         
         return button
     }()
     
-    override func viewDidLoad() {
-        super.viewDidLoad()
-        
-        view.backgroundColor = .yellow
-        
-        let stackView = UIStackView(arrangedSubviews: [loginTitleLabel,loginTextField, passwordTextField, loginButton, registerButton])
+    override init(frame: CGRect) {
+            super.init(frame: frame)
+            setupView()
+        }
+    
+    required init?(coder aDecoder: NSCoder) {
+            super.init(coder: aDecoder)
+            setupView()
+        }
+    
+    func setupView() {
+                
+        let stackView = UIStackView(
+            arrangedSubviews: [
+                loginTitleLabel,
+                loginTextField,
+                passwordTextField,
+                loginButton,
+                registerButton
+            ]
+        )
         stackView.axis = .vertical
         stackView.spacing = 16
         stackView.translatesAutoresizingMaskIntoConstraints = false
         
-        view.addSubview(stackView)
+        addSubview(stackView)
         
         NSLayoutConstraint.activate([
-            stackView.centerXAnchor.constraint(equalTo: view.centerXAnchor),
-            stackView.centerYAnchor.constraint(equalTo: view.centerYAnchor)
+            stackView.centerXAnchor.constraint(equalTo: centerXAnchor),
+            stackView.centerYAnchor.constraint(equalTo: centerYAnchor)
         ])
-    }
-    
-    @objc func loginButtonTapped() {
-    }
-    
-    @objc func registerButtonTapped() {
-       
     }
 }

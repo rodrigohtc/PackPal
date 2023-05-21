@@ -9,21 +9,51 @@
 /* Begin PBXBuildFile section */
 		5B88EDD82A1A4B3B00B23C32 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B88EDD72A1A4B3B00B23C32 /* AppDelegate.swift */; };
 		5B88EDDA2A1A4B3B00B23C32 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B88EDD92A1A4B3B00B23C32 /* SceneDelegate.swift */; };
-		5B88EDDC2A1A4B3B00B23C32 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B88EDDB2A1A4B3B00B23C32 /* ViewController.swift */; };
+		5B88EDDC2A1A4B3B00B23C32 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B88EDDB2A1A4B3B00B23C32 /* HomeViewController.swift */; };
 		5B88EDE12A1A4B3C00B23C32 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5B88EDE02A1A4B3C00B23C32 /* Assets.xcassets */; };
 		5B88EDE42A1A4B3C00B23C32 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5B88EDE22A1A4B3C00B23C32 /* LaunchScreen.storyboard */; };
 		5B88EDEC2A1A4B9400B23C32 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B88EDEB2A1A4B9400B23C32 /* LoginViewController.swift */; };
+		5B88EDEE2A1A518700B23C32 /* TripConfigurationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B88EDED2A1A518700B23C32 /* TripConfigurationViewController.swift */; };
+		5B88EDF22A1A540100B23C32 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B88EDF12A1A540100B23C32 /* LoginView.swift */; };
+		5B88EDF52A1A611400B23C32 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B88EDF42A1A611400B23C32 /* HomeView.swift */; };
+		5B88EDF82A1A62FB00B23C32 /* TripConfigurationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B88EDF72A1A62FB00B23C32 /* TripConfigurationView.swift */; };
+		5B88EDFB2A1A65EA00B23C32 /* DataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B88EDFA2A1A65EA00B23C32 /* DataManager.swift */; };
+		5B88EDFE2A1A66DC00B23C32 /* Trip.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B88EDFD2A1A66DC00B23C32 /* Trip.swift */; };
+		5B88EE012A1A6D6500B23C32 /* TripListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B88EE002A1A6D6500B23C32 /* TripListViewController.swift */; };
+		5B88EE032A1A6D7700B23C32 /* TripListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B88EE022A1A6D7700B23C32 /* TripListView.swift */; };
+		5B88EE062A1A810700B23C32 /* SplashViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B88EE052A1A810700B23C32 /* SplashViewController.swift */; };
+		5B88EE082A1A811D00B23C32 /* SplashView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B88EE072A1A811D00B23C32 /* SplashView.swift */; };
+		5B88EE0B2A1A88E400B23C32 /* TripSavedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B88EE0A2A1A88E400B23C32 /* TripSavedViewController.swift */; };
+		5B88EE0D2A1A88FF00B23C32 /* TripSavedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B88EE0C2A1A88FF00B23C32 /* TripSavedView.swift */; };
+		5B88EE102A1A8CE700B23C32 /* TripDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B88EE0F2A1A8CE700B23C32 /* TripDetailsViewController.swift */; };
+		5B88EE122A1AB44B00B23C32 /* PacPalView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B88EE112A1AB44B00B23C32 /* PacPalView.swift */; };
+		5B88EE152A1ABA2200B23C32 /* TripDetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B88EE142A1ABA2200B23C32 /* TripDetailsView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		5B88EDD42A1A4B3B00B23C32 /* PackPal.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PackPal.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5B88EDD72A1A4B3B00B23C32 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5B88EDD92A1A4B3B00B23C32 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		5B88EDDB2A1A4B3B00B23C32 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		5B88EDDB2A1A4B3B00B23C32 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		5B88EDE02A1A4B3C00B23C32 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5B88EDE32A1A4B3C00B23C32 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5B88EDE52A1A4B3C00B23C32 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5B88EDEB2A1A4B9400B23C32 /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		5B88EDED2A1A518700B23C32 /* TripConfigurationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TripConfigurationViewController.swift; sourceTree = "<group>"; };
+		5B88EDF12A1A540100B23C32 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		5B88EDF42A1A611400B23C32 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		5B88EDF72A1A62FB00B23C32 /* TripConfigurationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TripConfigurationView.swift; sourceTree = "<group>"; };
+		5B88EDFA2A1A65EA00B23C32 /* DataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataManager.swift; sourceTree = "<group>"; };
+		5B88EDFD2A1A66DC00B23C32 /* Trip.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Trip.swift; sourceTree = "<group>"; };
+		5B88EE002A1A6D6500B23C32 /* TripListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TripListViewController.swift; sourceTree = "<group>"; };
+		5B88EE022A1A6D7700B23C32 /* TripListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TripListView.swift; sourceTree = "<group>"; };
+		5B88EE052A1A810700B23C32 /* SplashViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashViewController.swift; sourceTree = "<group>"; };
+		5B88EE072A1A811D00B23C32 /* SplashView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashView.swift; sourceTree = "<group>"; };
+		5B88EE0A2A1A88E400B23C32 /* TripSavedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TripSavedViewController.swift; sourceTree = "<group>"; };
+		5B88EE0C2A1A88FF00B23C32 /* TripSavedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TripSavedView.swift; sourceTree = "<group>"; };
+		5B88EE0F2A1A8CE700B23C32 /* TripDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TripDetailsViewController.swift; sourceTree = "<group>"; };
+		5B88EE112A1AB44B00B23C32 /* PacPalView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PacPalView.swift; sourceTree = "<group>"; };
+		5B88EE142A1ABA2200B23C32 /* TripDetailsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TripDetailsView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,15 +86,118 @@
 		5B88EDD62A1A4B3B00B23C32 /* PackPal */ = {
 			isa = PBXGroup;
 			children = (
+				5B88EE132A1AB48400B23C32 /* Design System */,
 				5B88EDD72A1A4B3B00B23C32 /* AppDelegate.swift */,
 				5B88EDD92A1A4B3B00B23C32 /* SceneDelegate.swift */,
-				5B88EDEB2A1A4B9400B23C32 /* LoginViewController.swift */,
-				5B88EDDB2A1A4B3B00B23C32 /* ViewController.swift */,
+				5B88EDEF2A1A539000B23C32 /* App Features */,
+				5B88EDF92A1A659D00B23C32 /* CoreKit */,
 				5B88EDE02A1A4B3C00B23C32 /* Assets.xcassets */,
 				5B88EDE22A1A4B3C00B23C32 /* LaunchScreen.storyboard */,
 				5B88EDE52A1A4B3C00B23C32 /* Info.plist */,
 			);
 			path = PackPal;
+			sourceTree = "<group>";
+		};
+		5B88EDEF2A1A539000B23C32 /* App Features */ = {
+			isa = PBXGroup;
+			children = (
+				5B88EE0E2A1A8CC200B23C32 /* Trip Details Scene */,
+				5B88EE092A1A88C100B23C32 /* Trip Saved Scene */,
+				5B88EE042A1A80EC00B23C32 /* Trip Splash Scene */,
+				5B88EDFF2A1A6D3800B23C32 /* Trip List Scene */,
+				5B88EDF62A1A628700B23C32 /* Trip Add Scene */,
+				5B88EDF32A1A596500B23C32 /* Trip Home Scene */,
+				5B88EDF02A1A53A600B23C32 /* Trip Login Scene */,
+			);
+			path = "App Features";
+			sourceTree = "<group>";
+		};
+		5B88EDF02A1A53A600B23C32 /* Trip Login Scene */ = {
+			isa = PBXGroup;
+			children = (
+				5B88EDEB2A1A4B9400B23C32 /* LoginViewController.swift */,
+				5B88EDF12A1A540100B23C32 /* LoginView.swift */,
+			);
+			path = "Trip Login Scene";
+			sourceTree = "<group>";
+		};
+		5B88EDF32A1A596500B23C32 /* Trip Home Scene */ = {
+			isa = PBXGroup;
+			children = (
+				5B88EDDB2A1A4B3B00B23C32 /* HomeViewController.swift */,
+				5B88EDF42A1A611400B23C32 /* HomeView.swift */,
+			);
+			path = "Trip Home Scene";
+			sourceTree = "<group>";
+		};
+		5B88EDF62A1A628700B23C32 /* Trip Add Scene */ = {
+			isa = PBXGroup;
+			children = (
+				5B88EDFC2A1A66C700B23C32 /* Model */,
+				5B88EDED2A1A518700B23C32 /* TripConfigurationViewController.swift */,
+				5B88EDF72A1A62FB00B23C32 /* TripConfigurationView.swift */,
+			);
+			path = "Trip Add Scene";
+			sourceTree = "<group>";
+		};
+		5B88EDF92A1A659D00B23C32 /* CoreKit */ = {
+			isa = PBXGroup;
+			children = (
+				5B88EDFA2A1A65EA00B23C32 /* DataManager.swift */,
+			);
+			path = CoreKit;
+			sourceTree = "<group>";
+		};
+		5B88EDFC2A1A66C700B23C32 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				5B88EDFD2A1A66DC00B23C32 /* Trip.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		5B88EDFF2A1A6D3800B23C32 /* Trip List Scene */ = {
+			isa = PBXGroup;
+			children = (
+				5B88EE002A1A6D6500B23C32 /* TripListViewController.swift */,
+				5B88EE022A1A6D7700B23C32 /* TripListView.swift */,
+			);
+			path = "Trip List Scene";
+			sourceTree = "<group>";
+		};
+		5B88EE042A1A80EC00B23C32 /* Trip Splash Scene */ = {
+			isa = PBXGroup;
+			children = (
+				5B88EE052A1A810700B23C32 /* SplashViewController.swift */,
+				5B88EE072A1A811D00B23C32 /* SplashView.swift */,
+			);
+			path = "Trip Splash Scene";
+			sourceTree = "<group>";
+		};
+		5B88EE092A1A88C100B23C32 /* Trip Saved Scene */ = {
+			isa = PBXGroup;
+			children = (
+				5B88EE0A2A1A88E400B23C32 /* TripSavedViewController.swift */,
+				5B88EE0C2A1A88FF00B23C32 /* TripSavedView.swift */,
+			);
+			path = "Trip Saved Scene";
+			sourceTree = "<group>";
+		};
+		5B88EE0E2A1A8CC200B23C32 /* Trip Details Scene */ = {
+			isa = PBXGroup;
+			children = (
+				5B88EE0F2A1A8CE700B23C32 /* TripDetailsViewController.swift */,
+				5B88EE142A1ABA2200B23C32 /* TripDetailsView.swift */,
+			);
+			path = "Trip Details Scene";
+			sourceTree = "<group>";
+		};
+		5B88EE132A1AB48400B23C32 /* Design System */ = {
+			isa = PBXGroup;
+			children = (
+				5B88EE112A1AB44B00B23C32 /* PacPalView.swift */,
+			);
+			path = "Design System";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,10 +270,25 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5B88EDFE2A1A66DC00B23C32 /* Trip.swift in Sources */,
+				5B88EDF22A1A540100B23C32 /* LoginView.swift in Sources */,
+				5B88EDF52A1A611400B23C32 /* HomeView.swift in Sources */,
+				5B88EE032A1A6D7700B23C32 /* TripListView.swift in Sources */,
 				5B88EDEC2A1A4B9400B23C32 /* LoginViewController.swift in Sources */,
-				5B88EDDC2A1A4B3B00B23C32 /* ViewController.swift in Sources */,
+				5B88EE012A1A6D6500B23C32 /* TripListViewController.swift in Sources */,
+				5B88EE102A1A8CE700B23C32 /* TripDetailsViewController.swift in Sources */,
+				5B88EE062A1A810700B23C32 /* SplashViewController.swift in Sources */,
+				5B88EDF82A1A62FB00B23C32 /* TripConfigurationView.swift in Sources */,
+				5B88EDEE2A1A518700B23C32 /* TripConfigurationViewController.swift in Sources */,
+				5B88EDDC2A1A4B3B00B23C32 /* HomeViewController.swift in Sources */,
 				5B88EDD82A1A4B3B00B23C32 /* AppDelegate.swift in Sources */,
+				5B88EE0D2A1A88FF00B23C32 /* TripSavedView.swift in Sources */,
+				5B88EE0B2A1A88E400B23C32 /* TripSavedViewController.swift in Sources */,
+				5B88EE122A1AB44B00B23C32 /* PacPalView.swift in Sources */,
+				5B88EDFB2A1A65EA00B23C32 /* DataManager.swift in Sources */,
 				5B88EDDA2A1A4B3B00B23C32 /* SceneDelegate.swift in Sources */,
+				5B88EE152A1ABA2200B23C32 /* TripDetailsView.swift in Sources */,
+				5B88EE082A1A811D00B23C32 /* SplashView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -286,6 +434,7 @@
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -293,9 +442,12 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.rodrigo.PackPal;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -313,6 +465,7 @@
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -320,9 +473,12 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.rodrigo.PackPal;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};

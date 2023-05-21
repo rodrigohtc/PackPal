@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "5DD806A6-B6F3-4AB6-B539-C8BC6ADC260B"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "E6701D8D-04EF-45FF-870A-DED6171803AF"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "PackPal/App Features/Trip Add Scene/TripConfigurationViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "51"
+            endingLineNumber = "51"
+            landmarkName = "saveButtonTapped()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "E6701D8D-04EF-45FF-870A-DED6171803AF - 10e82ec70931cd4f"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "PackPal.TripConfigurationViewController.saveButtonTapped() -&gt; ()"
+                  moduleName = "PackPal"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/rodrigo/GitHub/PackPal/PackPal/App%20Features/Trip%20Add%20Scene/TripConfigurationViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "51"
+                  endingLineNumber = "51"
+                  offsetFromSymbolStart = "2163">
+               </Location>
+               <Location
+                  uuid = "E6701D8D-04EF-45FF-870A-DED6171803AF - 10e82ec70931cd4f"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "PackPal.TripConfigurationViewController.saveButtonTapped() -&gt; ()"
+                  moduleName = "PackPal"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/rodrigo/GitHub/PackPal/PackPal/App%20Features/Trip%20Add%20Scene/TripConfigurationViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "51"
+                  endingLineNumber = "51"
+                  offsetFromSymbolStart = "1196">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "5D62CC7C-C9CE-4BB4-8E54-EC10D3B0C1E4"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "PackPal/App Features/Trip Add Scene/TripConfigurationViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "47"
+            endingLineNumber = "47"
+            landmarkName = "saveButtonTapped()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "5D62CC7C-C9CE-4BB4-8E54-EC10D3B0C1E4 - 10e82ec70931cdcb"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "PackPal.TripConfigurationViewController.saveButtonTapped() -&gt; ()"
+                  moduleName = "PackPal"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/rodrigo/GitHub/PackPal/PackPal/App%20Features/Trip%20Add%20Scene/TripConfigurationViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "47"
+                  endingLineNumber = "47"
+                  offsetFromSymbolStart = "1105">
+               </Location>
+               <Location
+                  uuid = "5D62CC7C-C9CE-4BB4-8E54-EC10D3B0C1E4 - 10e82ec70931cdcb"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "PackPal.TripConfigurationViewController.saveButtonTapped() -&gt; ()"
+                  moduleName = "PackPal"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/rodrigo/GitHub/PackPal/PackPal/App%20Features/Trip%20Add%20Scene/TripConfigurationViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "47"
+                  endingLineNumber = "47"
+                  offsetFromSymbolStart = "1346">
+               </Location>
+               <Location
+                  uuid = "5D62CC7C-C9CE-4BB4-8E54-EC10D3B0C1E4 - 10e82ec70931cdcb"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "PackPal.TripConfigurationViewController.saveButtonTapped() -&gt; ()"
+                  moduleName = "PackPal"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/rodrigo/GitHub/PackPal/PackPal/App%20Features/Trip%20Add%20Scene/TripConfigurationViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "47"
+                  endingLineNumber = "47"
+                  offsetFromSymbolStart = "964">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
