@@ -24,7 +24,10 @@ class TripListViewController: UIViewController {
         tripListView.tableView.delegate = self
         tripListView.tableView.dataSource = self
         tripListView.tableView.register(UITableViewCell.self, forCellReuseIdentifier: "TripCell")
-        
+
+        tripListView.addTripButton.addTarget(self, action: #selector(addTripButtonTapped), for: .touchUpInside)
+
+
         loadTrips()
     }
     
@@ -32,6 +35,13 @@ class TripListViewController: UIViewController {
         trips = dataManager.getSavedTrips()
         tripListView.tableView.reloadData()
     }
+
+    @objc private func addTripButtonTapped() {
+        let tripConfigurationVC = TripConfigurationViewController(trip: nil)
+        navigationController?.pushViewController(tripConfigurationVC, animated: true)
+    }
+
+
 }
 
 // MARK: - UITableViewDelegate
@@ -54,7 +64,21 @@ extension TripListViewController: UITableViewDataSource {
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCell(withIdentifier: "TripCell", for: indexPath)
         let trip = trips[indexPath.row]
-        cell.textLabel?.text = trip.tripName // Assuming 'name' is a property of the Trip model
+        cell.textLabel?.text = trip.tripName
         return cell
+    }
+
+    func tableView(_ tableView: UITableView, commit editingStyle: UITableViewCell.EditingStyle, forRowAt indexPath: IndexPath) {
+        if editingStyle == .delete {
+            deleteTrip(at: indexPath)
+        }
+    }
+
+    private func deleteTrip(at indexPath: IndexPath) {
+        let trip = trips[indexPath.row]
+        DataManager.shared.deleteTrip(trip)
+
+        trips.remove(at: indexPath.row)
+        tripListView.tableView.deleteRows(at: [indexPath], with: .automatic)
     }
 }

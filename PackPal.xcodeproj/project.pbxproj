@@ -28,6 +28,12 @@
 		5B88EE102A1A8CE700B23C32 /* TripDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B88EE0F2A1A8CE700B23C32 /* TripDetailsViewController.swift */; };
 		5B88EE122A1AB44B00B23C32 /* PacPalView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B88EE112A1AB44B00B23C32 /* PacPalView.swift */; };
 		5B88EE152A1ABA2200B23C32 /* TripDetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B88EE142A1ABA2200B23C32 /* TripDetailsView.swift */; };
+		831CF0362A25456B0094879E /* BaggageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 831CF0352A25456B0094879E /* BaggageViewController.swift */; };
+		831CF0382A2545790094879E /* BaggageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 831CF0372A2545790094879E /* BaggageView.swift */; };
+		831CF03B2A25459A0094879E /* BaggageItemsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 831CF03A2A25459A0094879E /* BaggageItemsView.swift */; };
+		831CF03D2A2545A40094879E /* BaggageItemsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 831CF03C2A2545A40094879E /* BaggageItemsViewController.swift */; };
+		831CF03F2A2546F40094879E /* Baggage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 831CF03E2A2546F40094879E /* Baggage.swift */; };
+		836437B02A2571C600C31066 /* BaggageListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 836437AF2A2571C600C31066 /* BaggageListViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -54,6 +60,12 @@
 		5B88EE0F2A1A8CE700B23C32 /* TripDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TripDetailsViewController.swift; sourceTree = "<group>"; };
 		5B88EE112A1AB44B00B23C32 /* PacPalView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PacPalView.swift; sourceTree = "<group>"; };
 		5B88EE142A1ABA2200B23C32 /* TripDetailsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TripDetailsView.swift; sourceTree = "<group>"; };
+		831CF0352A25456B0094879E /* BaggageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaggageViewController.swift; sourceTree = "<group>"; };
+		831CF0372A2545790094879E /* BaggageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaggageView.swift; sourceTree = "<group>"; };
+		831CF03A2A25459A0094879E /* BaggageItemsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaggageItemsView.swift; sourceTree = "<group>"; };
+		831CF03C2A2545A40094879E /* BaggageItemsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaggageItemsViewController.swift; sourceTree = "<group>"; };
+		831CF03E2A2546F40094879E /* Baggage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Baggage.swift; sourceTree = "<group>"; };
+		836437AF2A2571C600C31066 /* BaggageListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaggageListViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +113,9 @@
 		5B88EDEF2A1A539000B23C32 /* App Features */ = {
 			isa = PBXGroup;
 			children = (
+				836437AE2A2571B300C31066 /* Baggage List */,
+				831CF0392A2545850094879E /* Items Details */,
+				831CF0342A2545250094879E /* Baggage Details */,
 				5B88EE0E2A1A8CC200B23C32 /* Trip Details Scene */,
 				5B88EE092A1A88C100B23C32 /* Trip Saved Scene */,
 				5B88EE042A1A80EC00B23C32 /* Trip Splash Scene */,
@@ -200,6 +215,33 @@
 			path = "Design System";
 			sourceTree = "<group>";
 		};
+		831CF0342A2545250094879E /* Baggage Details */ = {
+			isa = PBXGroup;
+			children = (
+				831CF0352A25456B0094879E /* BaggageViewController.swift */,
+				831CF0372A2545790094879E /* BaggageView.swift */,
+				831CF03E2A2546F40094879E /* Baggage.swift */,
+			);
+			path = "Baggage Details";
+			sourceTree = "<group>";
+		};
+		831CF0392A2545850094879E /* Items Details */ = {
+			isa = PBXGroup;
+			children = (
+				831CF03A2A25459A0094879E /* BaggageItemsView.swift */,
+				831CF03C2A2545A40094879E /* BaggageItemsViewController.swift */,
+			);
+			path = "Items Details";
+			sourceTree = "<group>";
+		};
+		836437AE2A2571B300C31066 /* Baggage List */ = {
+			isa = PBXGroup;
+			children = (
+				836437AF2A2571C600C31066 /* BaggageListViewController.swift */,
+			);
+			path = "Baggage List";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -270,13 +312,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				836437B02A2571C600C31066 /* BaggageListViewController.swift in Sources */,
+				831CF03D2A2545A40094879E /* BaggageItemsViewController.swift in Sources */,
 				5B88EDFE2A1A66DC00B23C32 /* Trip.swift in Sources */,
+				831CF0382A2545790094879E /* BaggageView.swift in Sources */,
 				5B88EDF22A1A540100B23C32 /* LoginView.swift in Sources */,
 				5B88EDF52A1A611400B23C32 /* HomeView.swift in Sources */,
 				5B88EE032A1A6D7700B23C32 /* TripListView.swift in Sources */,
+				831CF03F2A2546F40094879E /* Baggage.swift in Sources */,
 				5B88EDEC2A1A4B9400B23C32 /* LoginViewController.swift in Sources */,
+				831CF0362A25456B0094879E /* BaggageViewController.swift in Sources */,
 				5B88EE012A1A6D6500B23C32 /* TripListViewController.swift in Sources */,
 				5B88EE102A1A8CE700B23C32 /* TripDetailsViewController.swift in Sources */,
+				831CF03B2A25459A0094879E /* BaggageItemsView.swift in Sources */,
 				5B88EE062A1A810700B23C32 /* SplashViewController.swift in Sources */,
 				5B88EDF82A1A62FB00B23C32 /* TripConfigurationView.swift in Sources */,
 				5B88EDEE2A1A518700B23C32 /* TripConfigurationViewController.swift in Sources */,
