@@ -113,9 +113,9 @@
 		5B88EDEF2A1A539000B23C32 /* App Features */ = {
 			isa = PBXGroup;
 			children = (
-				836437AE2A2571B300C31066 /* Baggage List */,
 				831CF0392A2545850094879E /* Items Details */,
 				831CF0342A2545250094879E /* Baggage Details */,
+				836437AE2A2571B300C31066 /* Baggage List */,
 				5B88EE0E2A1A8CC200B23C32 /* Trip Details Scene */,
 				5B88EE092A1A88C100B23C32 /* Trip Saved Scene */,
 				5B88EE042A1A80EC00B23C32 /* Trip Splash Scene */,

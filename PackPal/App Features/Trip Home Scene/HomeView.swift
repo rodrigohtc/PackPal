@@ -25,6 +25,12 @@ class HomeView: PacPalView {
         button.setTitle("Adicionar Mala Personalizada", for: .normal)
         return button
     }()
+
+    let baggageList: UIButton = {
+        let button = UIButton(type: .system)
+        button.setTitle("Lista de Bagagens", for: .normal)
+        return button
+    }()
     
     override init(frame: CGRect) {
         super.init(frame: frame)
@@ -42,7 +48,8 @@ class HomeView: PacPalView {
             arrangedSubviews: [
                 addButton,
                 nextTripsButton,
-                customBagButton
+                customBagButton,
+                baggageList
             ]
         )
         stackView.axis = .vertical

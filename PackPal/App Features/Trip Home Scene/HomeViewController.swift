@@ -31,6 +31,7 @@ class HomeViewController: UIViewController {
         homeView.addButton.addTarget(self, action: #selector(addButtonTapped), for: .touchUpInside)
         homeView.nextTripsButton.addTarget(self, action: #selector(nextTripsButtonTapped), for: .touchUpInside)
         homeView.customBagButton.addTarget(self, action: #selector(customBagButtonTapped), for: .touchUpInside)
+        homeView.baggageList.addTarget(self, action: #selector(baggageListTapped), for: .touchUpInside)
     }
     
     @objc private func addButtonTapped() {
@@ -43,7 +44,13 @@ class HomeViewController: UIViewController {
         navigationController?.pushViewController(tripListViewController, animated: true)    }
     
     @objc private func customBagButtonTapped() {
-        // Implemente a lógica para adicionar uma mala personalizada
+        let baggageItemsViewController = BaggageItemsViewController(baggage: nil)
+        navigationController?.pushViewController(baggageItemsViewController, animated: true)
+    }
+
+    @objc private func baggageListTapped() {
+        let baggageListViewController = BaggageListViewController()
+        navigationController?.pushViewController(baggageListViewController, animated: true)
     }
 }
 
